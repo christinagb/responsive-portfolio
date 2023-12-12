@@ -37,6 +37,10 @@
     height: auto;
 }
 
+p::first-line {
+    font-weight: bold;
+}
+
 /* Mobile View */
 @media (max-width: 400px) {
 
