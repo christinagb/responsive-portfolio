@@ -2,7 +2,6 @@
 
 
 .container {
-    background-color: rgb(6, 102, 181);
     min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
@@ -12,10 +11,9 @@
 }
 
 .col {
-    background-color: rgb(113, 205, 224);
-    min-height: 200px;
     width: 30%;
     margin-bottom: 40px;
+    background-color: rgb(6, 102, 181);
 }
 
 .hide-desktop-only {
@@ -32,6 +30,11 @@
         display: block;
     }
    
+}
+
+.col img {
+    width: 100%;
+    height: auto;
 }
 
 /* Mobile View */
