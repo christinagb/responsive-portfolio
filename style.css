@@ -1,4 +1,7 @@
 /* Global View aka Desktop View */
+body {
+    font-family: 'Asap', sans-serif;
+}
 
 
 .container {
@@ -14,6 +17,13 @@
     width: 30%;
     margin-bottom: 40px;
     background-color: rgb(6, 102, 181);
+}
+
+.col p {
+    color: white;
+    font-size: 0,875rem;
+    padding: 20px 25px;
+    line-height: 1.25rem;
 }
 
 .hide-desktop-only {
@@ -37,8 +47,8 @@
     height: auto;
 }
 
-p::first-line {
-    font-weight: bold;
+.col p::first-line {
+    font-weight: 700;
 }
 
 /* Mobile View */
