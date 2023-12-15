@@ -13,6 +13,19 @@ body {
     justify-content: space-between;
 }
 
+.header-container {
+    background-color: rgb(116, 116, 116);
+    min-height: 100px;
+    margin-bottom: 40px;
+}
+
+header {
+    max-width: 1024px;
+    /* background-color: blueviolet; */
+    min-height: 100px;
+    margin: 0 auto;
+}
+
 .col {
     width: 30%;
     margin-bottom: 40px;
