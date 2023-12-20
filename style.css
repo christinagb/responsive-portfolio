@@ -1,7 +1,14 @@
 /* Global View aka Desktop View */
 body {
     font-family: 'Asap', sans-serif;
+    color: white;
     background-color: #EBEBEB;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
 }
 
 
@@ -12,7 +19,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    back
 }
 
 .header-container {
@@ -41,6 +47,15 @@ span.logo-text {
 
 nav {
     color: white;
+}
+
+.navbutton {
+    border: 1px solid white;
+    display: inline-block;
+    padding: 11px 25px;
+    margin-left: 20px;
+    position: relative;
+    
 }
 
 .col {
