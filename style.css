@@ -120,11 +120,13 @@ nav {
     .mob-nav {
         display: none;
         position: absolute;
+        padding-top: 10px;
     }
 
     .mybutton {
         display: block;
         background-color: coral;
+        border: 1px solid white; 
         padding: 15px 30px;
         margin-left: -70px;
         text-align: center;
